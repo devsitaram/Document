@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Document</string>
+    <string name="delete">Delete</string>
+    <string name="oops_unable_to_connect_to_the_network">Oops! unable to connect to the network</string>
+    <string name="you_must_connect_to_a_wi_fi_network_to_proceed">you must connect to a wi-fi network to proceed</string>
+    <string name="successful">Successful</string>
+    <string name="okay">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="info">Info</string>
+    <string name="send_email">Send Email</string>
+    <string name="no_email_clients_installed">No email clients installed</string>
+</resources>
