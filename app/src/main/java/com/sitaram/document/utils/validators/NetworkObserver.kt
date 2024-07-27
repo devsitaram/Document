@@ -1,4 +1,4 @@
-package com.sitaram.foodshare.utils
+package com.sitaram.document.utils.validators
 
 import android.content.Context
 import android.net.ConnectivityManager
@@ -19,8 +19,8 @@ import kotlinx.coroutines.flow.callbackFlow
 object NetworkObserver {
 
     sealed class ConnectionState {
-        object Available : ConnectionState()
-        object Unavailable : ConnectionState()
+        data object Available : ConnectionState()
+        data object Unavailable : ConnectionState()
     }
 
     /**
@@ -94,5 +94,4 @@ object NetworkObserver {
             context.observeConnectivityAsFlow().collect { value = it }
         }
     }
-
 }

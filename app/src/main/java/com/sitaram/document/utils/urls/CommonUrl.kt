@@ -11,5 +11,8 @@ class CommonUrl {
         // NOTIFICATION
         const val CHANNEL_ID = "notification_channel"
         const val CHANNEL_NAME = "com.sitaram.document"
+
+        // Dark/Light Mode
+        const val DARK_LIGHT_MODE = "dark.light.mode"
     }
 }

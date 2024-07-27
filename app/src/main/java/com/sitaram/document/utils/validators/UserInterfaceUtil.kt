@@ -93,7 +93,7 @@ class UserInterfaceUtil {
 
             // Create the notification
             val notification = NotificationCompat.Builder(context, CommonUrl.CHANNEL_ID)
-                .setSmallIcon(R.mipmap.ic_launcher_foreground) // ic_launcher_foreground
+                .setSmallIcon(R.mipmap.notification_logo) // ic_launcher_foreground
                 .setContentTitle(title)
                 .setContentText(description)
                 .setColor(ContextCompat.getColor(context, R.color.primary))
